@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-backend-course-git"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ruff>=0.15.5",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
